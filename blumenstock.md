@@ -1,4 +1,4 @@
-# 8/25 Response Human Development/Humbler Data Science
+# 8/25 Assignment 1: Joshua Blumenstock: "Don't forget people in the use of big data for development"
 
 Kaitlyn Crowley
 8/23/2020
