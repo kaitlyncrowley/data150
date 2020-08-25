@@ -2,5 +2,5 @@
 
 This is my final project, but the topic is yet to be decided
 
-##Testing Image
-![](Crowley Senior Photo.jpg)
+[Blumenstock 8/25 response](blumenstock.md)
+
