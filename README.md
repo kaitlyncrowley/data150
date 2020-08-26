@@ -5,5 +5,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 ![](CrowleyImage.jpg)
 
 [Assignment 1: Blumenstock 8/25 Response](blumenstock.md)
-[Assignment 2: Hans Rosling 8/27 Response]
+[Assignment 2: Hans Rosling 8/27 Response](hansrosling.md)
 
