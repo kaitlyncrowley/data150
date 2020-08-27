@@ -1,4 +1,4 @@
-Hans Rosling: The Best Stats You’ve Ever Seen
+# 8/27 Assignment 2: Hans Rosling: The Best Stats You've Ever Seen
 
 I found this video to be fascinating!  In the past year, I have taken a particular interest in analyzing data, especially in animated forms, so it was especially interesting to see the parts of the video where Hans Rosling was presenting different animated graphs.  I had never thought about the fact that there are many databases that exist in the realm of data science for information including health and wealth, but many of these databases are not easily accessible to the general population.  The analogy that Rosling used with the sun and the databases being below the ground really helped me to visualize how important systems like Gapminder, which he helped to develop, can be to the general population analyzing data.  It makes me wonder how many sources of data I are not yet accessible to me.
 
