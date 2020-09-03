@@ -8,3 +8,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 
 [Assignment 2: Hans Rosling 8/27 Response](hansrosling.md)
 
+[Q&A 9/3: Rosling and Sen](rosling&senQ&A.md)
+
