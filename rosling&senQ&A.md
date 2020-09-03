@@ -1,5 +1,6 @@
-Q&A 9/3/2020
+# Q&A 9/3/2020
 
+Hans Rosling: 
 1. In Hans Rosling’s “Best Stats You’ve Ever Seen”, he talks about preconceived ideas about global development and global health.
 What is comparison?  What is difference between western world and 3rd world?
 Describe how rosling introduced preconceived ideas and description of difference.
@@ -14,19 +15,23 @@ In terms of the importance of education and health care, education enables more 
 
 Amartya Sen:
 1. What is development?  Is it more expansive or a narrower view than we normally hold?  Why?
+
 According to Amartya Sen, “Development is a process of expanding the real freedoms that people enjoy.”  These freedoms can include political, economic, social, protective, and transparency freedoms.  This is a much more expansive view than people normally hold because people typically categorize development into just one area, such as economic development, in the form of GNP/GDP, technological advances, or social modernization.  With Sen’s view of development, all of these ideas are combined under the concept of increasing one’s freedoms.
 These freedoms occur through the removal of barriers.  It is more important to focus on this end goal of development instead of honing in on the means of development like a thriving economy.
 
 2. What are some of the sources of unfreedoms development requires to be removed? Why is free and sustainable agency a major engine of development?
+
 Some sources of unfreedoms include poverty, tyranny, poor economic opportunities, social deprivation, neglect of public facilities, and intolerance of repressive states (political unfreedom).  The American Civil War is an example of a time when a significant population of the US was experiencing unfreedom because of an unfree labor contract.
 Free and sustainable agency is a major engine of development because it allows people to participate in social change and in the decision making process.  It is also a stepping stone to other kinds of development in other areas.  The values of these free agencies are not linear, but rather span multiple areas and views to create the full effect of development.  When people have free agency, they are also able to obtain development in a way that works for their area since not all solutions are universal.
 In the introduction, many examples were given about how unfreedoms are not always equal.  For example, when comparing populations of countries like South Africa and Brazil with Sri Lanka, China, or Kerala in India, the former have higher GNP, yet the later tend to have longer live expectancies.  Having free agency is essential here because the solutions must be applied in very specific manners.
 
 3. What does he say about being generically against markets and what is the importance of his description of markets and freedom of speech?
+
 Markets do play an important role in development.  Sen claims that, “to be generically against markets would be almost as odd as being generically against conversations between people.”
 Following this claim, freedom of markets is as necessary as free speech and people should be able to exchange and receive ideas.  Markets may be negative, there still must be freedom to exchange because it is a natural part of being human.  Everyone wants to be able to improve their lives and their well-being.
 
 4. Who were Condorcet and Malthus?  And what did they argue?  Who is right?
+
 These men were people who studied and shared views about population growth and whether it is a violation of freedom to moderate fertility rates.
 Condorcet was a French rationalist who argued that fertility will end up decreasing due to “progress of reason” where people will naturally decrease the number of children that they have due to education and security.
 Malthus disagreed with this argument and claimed that only a shortage of resources would decrease population growth.  According to him, it doesn’t matter the education or reason of a population; it will continue to grow as long as there are resources to do so.  There is some reason in thinking about family growth, but not always.
