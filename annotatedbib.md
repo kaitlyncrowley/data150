@@ -1,5 +1,7 @@
 # Annotated Bibliography Rough Draft 1st Source
 
+Bosco Claudio, Watson Samantha, Game Alina, Brooks Chris, de Rigo Daniele, Qader Sarchil, . . . Bengtsson Linus. (2019). Towards high-resolution sex-disaggregated dynamic mapping. (). FlowMinder.org: FlowMinder. Retrieved from https://web.flowminder.org/publications/towards-high-resolution-sex-dissagregated-dynamic-mapping
+
 Towards High-Resolution Sex-Disaggregated Dynamic Mapping
 	
 This report analyzes the development problem of gender inequality within the country of Nepal.  Within Nepal, gender is a significant cause of difference in freedoms for people.  Women are subject to disadvantages at a greater rate than men, but to fully understand these disadvantages, aid organizations require that they know where the resources should be directed.  In the study this report covers, data is analyzed within two primary categories.  The first of these includes the development indicators of literacy, agriculture-based-occupations, and births in health facilities.  Data for these areas was collected through national surveys, mobile phone data, and satellite imagery.  The second area of study was of migration patterns and general gender mobility within Nepal.  In order to measure this, mobile phone data was utilized, more specifically a method of tracking Subscriber Identification Module-card (SIM) sharing.  Within each study, Machine Learning techniques and Bayesian Geostatistical models were used to help create maps that could then be analyzed for the data.  
