@@ -12,4 +12,4 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 
 [Annotated Bibliography Rough Draft](annotatedbib.md)
 
-[Data Insight 1: Read Along](datainsight1.md)
+[Data Insight 1: Read Along](data_insight_1.md)
