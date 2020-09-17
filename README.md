@@ -11,3 +11,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 [Q&A 9/3: Rosling and Sen](rosling&senQ&A.md)
 
 [Annotated Bibliography Rough Draft](annotatedbib.md)
+
+[Data Insight 1: Read Along](data_insight_1.md
