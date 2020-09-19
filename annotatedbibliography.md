@@ -1,4 +1,4 @@
-#Kaitlyn Crowley's Annotated Bibliography: Gender Inequality and Data Science
+#Kaitlyn Crowley's Annotated Bibliography: Analyzing Gender Inequality through the use Data Science Innovation and Insight
 
 Word Count: 3055
 
