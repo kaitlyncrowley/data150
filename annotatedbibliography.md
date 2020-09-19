@@ -1,4 +1,5 @@
-#Assignment 1 - Annotated Bibliography: Gender Inequality and Data Science
+#Kaitlyn Crowley's Annotated Bibliography: Gender Inequality and Data Science
+
 Word Count: 3055
 
 Bosco, Claudio, Samantha Watson, Alina Game, Chris Brooks, Daniele de Rigo, Sarchil Qader, Joshua Greenhalgh, Kristine Nilsen, Amy Ninneman, Richard Wood, and Linus Bengtsson. 2019. “Towards High-Resolution Sex-Disaggregated Dynamic Mapping”. FlowMinder.org: FlowMinder. Retrieved from https://web.flowminder.org/publications/towards-high-resolution-sex-dissagregated-dynamic-mapping
