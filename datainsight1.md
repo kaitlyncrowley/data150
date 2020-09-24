@@ -15,5 +15,5 @@ Kumar, K. S. (2020). ‘Google read along’ to help 10 million UP school kids i
 
 Perez, S. (2019). Google introduces educational app bolo to improve children’s literacy in India. Retrieved from https://techcrunch.com/2019/03/06/google-introduces-educational-app-bolo-to-improve-childrens-literacy-rates-in-india/
 
-Read along - voice and AI design to grow child literacy | centered ep 9. . (2020, May 20,).[Video/DVD] Google Design Studios.
+Read Along - Voice and AI Design to Grow Child Literacy | centered ep 9. . (2020, May 20,).[Video/DVD] Google Design Studios.
 
