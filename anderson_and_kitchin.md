@@ -1,4 +1,4 @@
-#Anderson and Kitchin Responses: 9/29
+# Anderson and Kitchin Responses: 9/29
 
 In favor of Kitchin
 	
