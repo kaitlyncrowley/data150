@@ -15,3 +15,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 [Assignment 1: Annotated Bibliography 9/19](annotatedbibliography.md)
 
 [Further Research/Annotated Bibliography Reflection](further_research.md)
+
+[Anderson and Kitchin 9/29 Response](anderson_and_kitchin.md)
