@@ -17,3 +17,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 [Further Research/Annotated Bibliography Reflection](further_research.md)
 
 [Anderson and Kitchin 9/29 Response](anderson_and_kitchin.md)
+
+[Data Insight 2: ANNs and Coronavirus](data_insight2.md)
