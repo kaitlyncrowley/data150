@@ -21,3 +21,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 [Data Insight 2: ANNs and Coronavirus](data_insight2.md)
 
 [Barder Class Responses 10/15](barder_responses.md)
+
+[Assignment 2: Literature Review 10/19](literature_review.md)
