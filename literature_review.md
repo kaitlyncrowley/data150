@@ -1,7 +1,7 @@
 # Gender Inequalities and Unequal Access to Healthcare and Education: Utilizing Data Science Methods to Address Gender Inequality in Nepal
 Kaitlyn Crowley 
 
-Word Count: 4481
+Word Count: 4498
 
 
 Introduction
