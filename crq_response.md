@@ -1,4 +1,4 @@
-# Central Research Question
+# Central Research Question Reflection and Responses
 
 My central research question is: What is the impact of data collection methods on the ability to accurately measure gender inequalities in Nepal and how can a frictionless path of data collection be implemented to improve these measurements?
 
