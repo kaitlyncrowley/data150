@@ -23,3 +23,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 [Barder Class Responses 10/15](barder_responses.md)
 
 [Assignment 2: Literature Review 10/19](literature_review.md)
+
+[Central Research Question Response 10/22](crq_response.md)
