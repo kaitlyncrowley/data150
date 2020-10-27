@@ -25,3 +25,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 [Assignment 2: Literature Review 10/19](literature_review.md)
 
 [Central Research Question 10/22 Response](crq_response.md)
+
+[Theoretical Framework Response](theoretical_framework.md)
