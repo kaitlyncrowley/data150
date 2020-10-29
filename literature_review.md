@@ -85,17 +85,29 @@ Even with the many advances throughout the world in terms of human development, 
 References
 
 Adhikari, R. (2016). Effect of Women’s autonomy on maternal health service utilization in Nepal: a cross sectional study. BMC Women's Health, 16(1), 26. 10.1186/s12905-016-0305-7
+
 Aryal, K. K., Sharma, S. K., Khanal, M. N., Bista, B., Sharma, S. L., Kalfe, S., Steffen, M, M. (2019). DHS further analysis reports No. 118. Maternal Health Care in Nepal: Trends and Determinants.
+
 Bosco, C., Watson, S., Game, A., Brooks, C., de Rigo, D, Qader, S., Greenhalgh, J., Nilsen, K., Ninneman, A, Wood, R., & Bengtsson, L. (2019). Towards high-resolution sex-disaggregated dynamic mapping. FlowMinder.org: FlowMinder. Retrieved from https://web.flowminder.org/publications/towards-high-resolution-sex-dissagregated-dynamic-mapping
+
 Brinda, E. M., Rajkumar, A. P., & Enemark, U. (2015). Association between gender inequality index and child mortality rates: a cross-national study of 138 countries. Biomed Central Public Health, 15(1), 97. doi:10.1186/s12889-015-1449-3
+
 Garcia, D., Kassa Y. M., Cuevas, A., Cebrian, M., Moro, E., Rahwan, I., & Cuevas, R . (2018). Analyzing gender inequality through large-scale facebook advertising data. Proceedings of the National Academy of Sciences - PNAS, 115(27), 6958-6963. doi:10.1073/pnas.1717781115
+
 Gething, P., Tatem, A., Bird, T., & Burgert-Brucker, C. R. (2015). Creating spatial interpolation surfaces with DHS data DHS spatial analysis reports no. 11. Rockville, Maryland, USA: ICF International.
+
 Graetz, N., Woyczynski, L., Wilson, K. F., Hall, J. B., Hassen Abate, K., Abd-Allah, F., Adebayo, O. M., Adekanmbi, V., Afshari, M., Ajumobi, O., Akinyemiju, T., Alahdab, F., Al-Aly, Z., Elizabeth Alcalde Rabanal, J., Alijanzadeh, M., Alipour, V., Altirkawi, K., Amiresmaili, M., Hamed Anber, N., . . . ... (2020). Mapping disparities in education across low- and middle-income countries. Nature, 577(7789), 235-238. 10.1038/s41586-019-1872-1
+
 Jafarey, S., Mainali, R., & Montes‐Rojas, G. (2020). Age at marriage, social norms, and female education in Nepal. Review of Development Economics, 24(3), 878-909. 10.1111/rode.12692
+
 Khanal, S. (2018). Gender discrimination in education expenditure in Nepal: Evidence from living standards surveys. Asian Development Review, 35(1), 155-174. 10.1162/adev_a_00109
+
 Namasivayam, A., Osuorah, D. C., Syed, R., & Antai, D. (2012). The role of gender inequities in women's access to reproductive health care: a population-level study of Namibia, Kenya, Nepal, and India. International Journal of Women's Health, 4, 351-364. 10.2147/IJWH.S32569
+
 Neal, S., Ruktanonchai, C. W., Chandra-Mouli, V., Harvey, C., Matthews, Z., Raina, N., & Tatem, A. (2019). Using geospatial modelling to estimate the prevalence of adolescent first births in Nepal. BMJ Global Health doi:10.1136/bmjgh-2018-000763
+
 Sekine, K., & Hodgkin, M. E. (2017). Effect of child marriage on girls' school dropout in Nepal: Analysis of data from the Multiple Indicator Cluster Survey 2014. PloS One, 12(7), e0180176. 10.1371/journal.pone.0180176
-Vaitla, B., Bosco, C., Alegana, V., Bird, T., Pezzulo, C., Hornby, G., Sorichetta, A., Steele, J., Ruktanonchai, C., Ruktanonchai, N., Wetter, E., Bengtsson, L., Tatem, A. J., Di Clemente R., Luengo-Oroz, M., González, M. C., Nielsen, R., Baar, O., Vacarelu, F., […] Wouter, E. (2017). Big data and the well-being of women and girls.” Data2X. Retrieved from https://www.openaire.eu/search/publication?articleId=od_______348::84be43eb9164d5fbf098d9504feeb57d
+
+Vaitla, B., Bosco, C., Alegana, V., Bird, T., Pezzulo, C., Hornby, G., Sorichetta, A., Steele, J., Ruktanonchai, C., Ruktanonchai, N., Wetter, E., Bengtsson, L., Tatem, A. J., Di Clemente R., Luengo-Oroz, M., González, M. C., Nielsen, R., Baar, O., Vacarelu, F., […] Wouter, E. (2017). Big data and the well-being of women and girls.” Data2X. Retrieved from https://www.openaire.eu/search/publication?articleId=od___348::84be43eb9164d5fbf098d9504feeb57d
 
 
