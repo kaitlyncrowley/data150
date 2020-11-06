@@ -29,3 +29,5 @@ Hi!  My name is Kaitlyn Crowley.  I am a freshman here at W&M.  Right now, I am 
 [Theoretical Framework Response](theoretical_framework.md)
 
 [Central/Sub-Research Question Draft](crqs.md)
+
+[In Class Essay: Knowledge Creation](knowledge_creation.md)
