@@ -2,8 +2,7 @@
 Kaitlyn Crowley
 Words: 3483
 
-Link to document that includes images: https://docs.google.com/document/d/1QXmhforW5q562VqFQtKJ63V8mGlDGa9W/edit
-
+Link to document that includes images:https://drive.google.com/file/d/1QXmhforW5q562VqFQtKJ63V8mGlDGa9W/view?usp=sharing
 Introduction
 
 Gender inequality is a pervasive human development topic, particularly in developing countries.  Inequalities among men and women can be traced back through history and are particularly prevalent in developing countries since traditional views of gender roles and responsibilities persist there in even more extreme forms than in developed countries.  When women are not treated as equals in society, two of the most significant harms are that they are often denied access to healthcare, specifically maternal health care, and they are not given equal access to education.  In Nepal, a primary example of a developing country, there are about 287,000 maternal deaths per year, resulting from complications both during pregnancy and during childbirth (Adhikari, 2016, p. 1).  In addition, 258 women die for every 100,000 live births each year in Nepal.  This is greater than even other developing countries in Southeast Asia, such as India where 174 women die for every 100,000 live births each (Aryal et al., 2019).  In addition, in rural areas of Nepal, only 39% of women complete secondary schooling (Bosco et al., 2019).  Early marriage is also prominent, often making more girls drop out of school.  The inherent nature of the development process is that the extremely patriarchal societal structure and high levels of poverty throughout the country combine with traditional views to put women in a place of disadvantage that is more severe than in many other countries throughout the world (Bosco et al., 2019).
