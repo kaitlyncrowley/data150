@@ -1,8 +1,7 @@
 # Gender Inequalities: Methodological Investigation of Bayesian Geostatistical Models and Neural Networks
 Kaitlyn Crowley
-Words: 3483
+Words (Content): 3483
 
-Link to document that includes images:https://drive.google.com/file/d/1QXmhforW5q562VqFQtKJ63V8mGlDGa9W/view?usp=sharing
 Introduction
 
 Gender inequality is a pervasive human development topic, particularly in developing countries.  Inequalities among men and women can be traced back through history and are particularly prevalent in developing countries since traditional views of gender roles and responsibilities persist there in even more extreme forms than in developed countries.  When women are not treated as equals in society, two of the most significant harms are that they are often denied access to healthcare, specifically maternal health care, and they are not given equal access to education.  In Nepal, a primary example of a developing country, there are about 287,000 maternal deaths per year, resulting from complications both during pregnancy and during childbirth (Adhikari, 2016, p. 1).  In addition, 258 women die for every 100,000 live births each year in Nepal.  This is greater than even other developing countries in Southeast Asia, such as India where 174 women die for every 100,000 live births each (Aryal et al., 2019).  In addition, in rural areas of Nepal, only 39% of women complete secondary schooling (Bosco et al., 2019).  Early marriage is also prominent, often making more girls drop out of school.  The inherent nature of the development process is that the extremely patriarchal societal structure and high levels of poverty throughout the country combine with traditional views to put women in a place of disadvantage that is more severe than in many other countries throughout the world (Bosco et al., 2019).
@@ -39,8 +38,10 @@ As demonstrated in Figures 1 and 2, which are tables of data from the 2016 NDHS,
 
 In addition to the information collected in the NDHS, geographical data is required, often gathered from secondary sources of GIS data and remote sensing satellite data sets.  This data has clear spatial dimensions and the temporal dimensions are important, but not as crucial because satellite imagery is now so readily available that it can be updated relatively quickly.  GIS datasets can be centered on elements that are physical, social, or environmental.  Using AcrGIS, this data is processed and produced into layers of information (Bosco et al., 2019).  Remote sensing data can be obtained from the United States Geological Survey and includes information about vegetation such as Gross Primary Productivity and Net Primary productivity and is verified with quality assurance layers (Bosco et al., 2019).  Both of these data sources are relatively valid and reliable due to advanced satellite imagery technology.  Having these additional data points allows for prediction of “the indicators at locations where survey data are not available” (p. 3) since there is often a clear correlative relationship between them and levels of gender inequality (Bosco et al., 2017).   
 
-Figure 2. Geospatial covariates at 0.0083 decimal degrees resolution showing population count, distance to protected areas, distance to schools, and nighttime lights. (Bosco et al., 2019).
+![](Covariates.png)
+Figure 3. Geospatial covariates at 0.0083 decimal degrees resolution showing population count, distance to protected areas, distance to schools, and nighttime lights. (Bosco et al., 2019).
  
+![](Remote Sensing.png)
 Figure 4. Remote sensing covariates showing the mean Gross Primary Productivity and mean Normalized Difference Vegetation Index. (Bosco et al., 2017).
 
 Geospatial Data Science Methods
@@ -49,9 +50,9 @@ Bayesian Geostatistical Modeling
 
 Bayesian geostatistical modeling is a method that is utilized in order to create a high resolution description of specific variables, especially in areas where there is a lack of data, taking uncertainty into account (Gething et al., 2015).  This method is one that is continuously evolving and often involves methods such as Kriging, Integrated Nested Laplace Approximation, and Empirical Bayesian Kriging, all of which have varying levels of accuracy, especially when taking spatial data into account.  
 
-Y(s) = xT(s) + (s) +  ε(s)
+Y(s) = xT(s)B + w(s) +  ε(s)
 
-The equation above is the basic geostatistical model.  The first term x(T)(s) represents the covariates that are entered into the model.  These covariates, in the scope of this research, are the data that is collected through the NDHS, GIS mapping, and remote sensing.  This vector of information is then multiplied by the “ vector of regression coefficients” (Gelfand & Banerjee, 2017, p. 2), which is the relationship between the two variables.  (s) is the spatial component of the model, taking the location into account (Gelfand & Banerjee, 2017).  This value is often calculated through a Gaussian Process to calculate a random field (Gething et al., 2015), utilizing the randomly generated random spatial term.  The ε(s) is often known as “white noise” and serves to create more variance (Gelfand & Banerjee, 2017, p. 3).  These values can also be referenced as the “uncorrelated error terms” (Bosco et al., 2017, p. 5).  All of these elements added result in a vector representing a measurement at the location s (Y(s)).
+The equation above is the basic geostatistical model.  The first term x(T)(s) represents the covariates that are entered into the model.  These covariates, in the scope of this research, are the data that is collected through the NDHS, GIS mapping, and remote sensing.  This vector of information is then multiplied by the “B vector of regression coefficients” (Gelfand & Banerjee, 2017, p. 2), which is the relationship between the two variables.  w(s) is the spatial component of the model, taking the location into account (Gelfand & Banerjee, 2017).  This value is often calculated through a Gaussian Process to calculate a random field (Gething et al., 2015), utilizing the randomly generated random spatial term.  The ε(s) is often known as “white noise” and serves to create more variance (Gelfand & Banerjee, 2017, p. 3).  These values can also be referenced as the “uncorrelated error terms” (Bosco et al., 2017, p. 5).  All of these elements added result in a vector representing a measurement at the location s (Y(s)).
 The most important part of this process is the Bayesian inference, utilizing the result from the model.  
 
 p(Θ|E) = (p(Θ) × p(E|Θ))/ p(E) 
@@ -59,9 +60,11 @@ p(Θ|E) = (p(Θ) × p(E|Θ))/ p(E)
 Within this process, p(Θ|E) is the “posterior belief in the parameters given the evidence” (Steinbuch et al., 2018, p. 401).  This is calculated by multiplying the likelihood of a relationship (p(E|Θ)) by the prior and dividing the product by the probability of the evidence collected, p(E), The evidence (E) is the Y(s) value from the in the basic geostatistical model (Steinbuch et al., 2018).  Through this Bayesian inference, the level of uncertainty of predictions of data can be calculated, providing an ability to create maps or other data representations to take this uncertainty into account.
 
 When applying this method, small samples collected through surveys like the NDHS can be utilized to then predict higher resolution observations based on the uncertainty calculated.  Figures 5 and 6 demonstrate how the Bayesian models allow for mapping of literacy rates across the whole country instead of just the select points (Figure 4) where survey data is collected.
- 
+
+![](NDHS_Data.png)
 Figure 5. Map of female literacy rates as collected through the NDHS (Bosco et al., 2019). 
  
+![](Disaggregated_Map.png)
 Figure 6. Map of the proportions of female literacy using covariate data to predict areas where NDHS did not collect data.  (Bosco et al., 2019).
 
 Neural Networks, Specifically Convolutional Neural Networks
@@ -77,7 +80,8 @@ with ŷ(x) representing the output of the final hidden layer within the CNN (Woo
 Following the feedforward process, a process of backpropagation is completed.  In this process, the model attempts to update the weights to improve the accuracy of the method’s predictions (Wang et al., 2020, April 30).
 
 Through this process the neurons of the network build even more accurate connections, ultimately increasing the accuracy of the output.  Since the network is trained through this process, these connections can then be used later to analyze data or images.  Neural networks ultimately use probability to improve the end output, taking known points (x in the equation) and predicting the relationship between those points that will result in an output that is as accurate as possible.  Once this relationship involving a known value is computed, researchers can then predict data at an unknown point.
- 
+
+![](CNN.png)
 Figure 7.  Illustration of the process of Convolutional Neural Networks.  (Wang et al., 2020, April 30)
 
 Comparison
@@ -103,23 +107,41 @@ Although Bayesian geostatistical models and neural networks are significant adva
 In their 2019 report, Bosco et al. attempted to utilize CDR data as an additional covariate when mapping gender inequality indicators, but the frequency of SIM-card sharing meant that it was difficult to disaggregate the data by gender.  Additional research must be completed in order to determine if CDR data is a beneficial covariate to implement when evaluating gender inequality or whether another frictionless pathway must be developed for data collection.  Through this investigation, if it is successful, continuous data could be tracked and measured on the condition of women in developing countries like Nepal through CDR data.  This current data will mean that the models will have even more opportunity to update and account for gaps in the information.  With fewer gaps, the predictive abilities of the methods will improve, allowing for the issues of gender inequality to be mapped more accurately, which in turn enables aid to be directed toward specific areas.
 
 References
+
 Adhikari, R. (2016). Effect of Women’s autonomy on maternal health service utilization in Nepal: a cross sectional study. BMC Women's Health, 16(1), 26. 10.1186/s12905-016-0305-7
+
 Aryal, K. K., Sharma, S. K., Khanal, M. N., Bista, B., Sharma, S. L., Kalfe, S., Steffen, M, M. (2019). DHS further analysis reports No. 118. Maternal Health Care in Nepal: Trends and Determinants.
+
 Bosco, C., Watson, S., Game, A., Brooks, C., de Rigo, D, Qader, S., Greenhalgh, J., Nilsen, K., Ninneman, A, Wood, R., & Bengtsson, L. (2019). Towards high-resolution sex-disaggregated dynamic mapping. FlowMinder.org: FlowMinder. Retrieved from https://web.flowminder.org/publications/towards-high-resolution-sex-dissagregated-dynamic-mapping
+
 Bosco, C., Alegana, V., Bird, T., Pezzulo, C., Bengtsson, L., Sorichetta, A., Steele, J., Hornby, G., Ruktanonchai, C., Ruktanonchai, N., Wetter, E., & Tatem, A. J. (2017). Exploring the high-resolution mapping of gender-disaggregated development indicators. J. R. Soc. Interface, 20160825. http://dx.doi.org/10.1098/rsif.2016.0825 
+
 Brinda, E. M., Rajkumar, A. P., & Enemark, U. (2015). Association between gender inequality index and child mortality rates: a cross-national study of 138 countries. Biomed Central Public Health, 15(1), 97. doi:10.1186/s12889-015-1449-3
+
 Garcia, D., Kassa Y. M., Cuevas, A., Cebrian, M., Moro, E., Rahwan, I., & Cuevas, R . (2018). Analyzing gender inequality through large-scale facebook advertising data. Proceedings of the National Academy of Sciences - PNAS, 115(27), 6958-6963. doi:10.1073/pnas.1717781115
+
 Gething, P., Tatem, A., Bird, T., & Burgert-Brucker, C. R. (2015). Creating spatial interpolation surfaces with DHS data DHS spatial analysis reports no. 11. Rockville, Maryland, USA: ICF International.
+
 Graetz, N., Woyczynski, L., Wilson, K. F., Hall, J. B., Hassen Abate, K., Abd-Allah, F., Adebayo, O. M., Adekanmbi, V., Afshari, M., Ajumobi, O., Akinyemiju, T., Alahdab, F., Al-Aly, Z., Elizabeth Alcalde Rabanal, J., Alijanzadeh, M., Alipour, V., Altirkawi, K., Amiresmaili, M., Hamed Anber, N., ... (2020). Mapping disparities in education across low- and middle-income countries. Nature, 577(7789), 235-238. 10.1038/s41586-019-1872-1
+
 Jafarey, S., Mainali, R., & Montes‐Rojas, G. (2020). Age at marriage, social norms, and female education in Nepal. Review of Development Economics, 24(3), 878-909. 10.1111/rode.12692
+
 Khanal, S. (2018). Gender discrimination in education expenditure in Nepal: Evidence from living standards surveys. Asian Development Review, 35(1), 155-174. 10.1162/adev_a_00109
+
 Namasivayam, A., Osuorah, D. C., Syed, R., & Antai, D. (2012). The role of gender inequities in women's access to reproductive health care: a population-level study of Namibia, Kenya, Nepal, and India. International Journal of Women's Health, 4, 351-364. 10.2147/IJWH.S32569
+
 Neal, S., Ruktanonchai, C. W., Chandra-Mouli, V., Harvey, C., Matthews, Z., Raina, N., & Tatem, A. (2019). Using geospatial modelling to estimate the prevalence of adolescent first births in Nepal. BMJ Global Health doi:10.1136/bmjgh-2018-000763
+
 Sekine, K., & Hodgkin, M. E. (2017). Effect of child marriage on girls' school dropout in Nepal: Analysis of data from the Multiple Indicator Cluster Survey 2014. PloS One, 12(7), e0180176. 10.1371/journal.pone.0180176
+
 Singh, Aishwarya. (2020, February 11). Demystifying the mathematics behind Convolutional Neural Networks (CNNs). Analytics Vidhya. https://www.analyticsvidhya.com/blog/2020/02/mathematics-behind-convolutional-neural-network/?utm_source=blog&utm_medium=cnn-vs-rnn-vs-mlp-analyzing-3-types-of-neural-networks-in-deep-learning
+
 Steinbuch, L., Orton, T. G., & Brus, D. J. (2019). Model-based geostatistics from a bayesian perspective: Investigating area-to-point kriging with small data sets. Mathematical Geosciences, 52(3), 397-423. 10.1007/s11004-019-09840-6
+
 Vaitla, B., Bosco, C., Alegana, V., Bird, T., Pezzulo, C., Hornby, G., Sorichetta, A., Steele, J., Ruktanonchai, C., Ruktanonchai, N., Wetter, E., Bengtsson, L., Tatem, A. J., Di Clemente R., Luengo-Oroz, M., González, M. C., Nielsen, R., Baar, O., Vacarelu, F., […] Wouter, E. (2017). Big data and the well-being of women and girls.” Data2X. Retrieved from https://www.openaire.eu/search/publication?articleId=od_348::84be43eb9164d5fbf098d9504feeb57d
+
 Wang. J., Turko, R., Shaikh, O., Park, H., Das, N., Hohman, F., Kahng, M., Chau, P. (2020, April 30). Learn Convolutional Neural Network (CNN) in your browser. CNN Explainer. Retrieved November 10, 2020, from https://poloclub.github.io/cnn-explainer/
+
 Wood, T. (2020, September 2). What is backpropagation? DeepAI. Retrieved November 10, 2020 from https://deepai.org/machine-learning-glossary-and-terms/backpropagation
 
 
