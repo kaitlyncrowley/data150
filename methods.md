@@ -2,7 +2,7 @@
 Kaitlyn Crowley
 Words (Content): 3483
 
-Introduction
+# Introduction
 
 Gender inequality is a pervasive human development topic, particularly in developing countries.  Inequalities among men and women can be traced back through history and are particularly prevalent in developing countries since traditional views of gender roles and responsibilities persist there in even more extreme forms than in developed countries.  When women are not treated as equals in society, two of the most significant harms are that they are often denied access to healthcare, specifically maternal health care, and they are not given equal access to education.  In Nepal, a primary example of a developing country, there are about 287,000 maternal deaths per year, resulting from complications both during pregnancy and during childbirth (Adhikari, 2016, p. 1).  In addition, 258 women die for every 100,000 live births each year in Nepal.  This is greater than even other developing countries in Southeast Asia, such as India where 174 women die for every 100,000 live births each (Aryal et al., 2019).  In addition, in rural areas of Nepal, only 39% of women complete secondary schooling (Bosco et al., 2019).  Early marriage is also prominent, often making more girls drop out of school.  The inherent nature of the development process is that the extremely patriarchal societal structure and high levels of poverty throughout the country combine with traditional views to put women in a place of disadvantage that is more severe than in many other countries throughout the world (Bosco et al., 2019).
 When women are not given access to these basic rights, they are not able to contribute to their society and participate fully in the economic, political, or even social spheres of life in the country.  Interestingly, not only does a patriarchal society perpetuate these unfreedoms, but the unfreedoms lead to a continuation of the strength of the patriarchy.  This further illustrates the inherent complex nature of gender inequality in addition to the fact that it is difficult to measure and quantify.  Bayesian geostatistical models are a data science method that has been applied to this issue in order to analyze and map the limited data that has been collected on gender inequality in developing countries at a higher resolution.  Neural networks are also being used to describe and model the complex process of gender inequality through learning relationships between linear and nonlinear data, which is essential given the complexity of gender inequality issues.  
@@ -10,7 +10,7 @@ When women are not given access to these basic rights, they are not able to cont
 The Bayesian model has been utilized to map different factors of gender inequality, including literacy rates and access to maternal health facilities, at a higher resolution than maps created from pure survey or census data, taking in the varying levels of uncertainty that accompany the approximations of the mapping.  Through these more detailed maps, aid can then be directed to areas of greater need, therefore maximizing resources and results.  Neural networks perform a similar function, however they incorporate a process of deep learning, so the model is trained to make increasingly accurate predictions of various factors and can then be used to make predictions for unknown points of data. 
 When addressing this topic, the broad central research question that I will be attempting to answer is: What is the impact of data collection methods on the ability to accurately measure gender inequalities in Nepal and how can a frictionless path of data collection be implemented to improve these measurements?
 
-Type of Inquiry
+# Type of Inquiry
 
 In this investigation into the issue of gender inequality, I will be seeking to answer an exploratory inquiry.  Through investigation of the effect of different data collection methods on issues of gender inequality and the effects that the inaccuracies and imprecision of these methods have on the issue, I will be seeking to uncover more about exactly what makes the topic of gender inequality so complex.  The scope of this inquiry will be limited to the country of Nepal in order to focus on the complexities of the issue in one country before expanding to apply the findings to other countries.  Nepal is also a country where gender inequalities are especially pronounced, yet also lack sufficient data quantifying them, pointing to the necessity for improvements in the measurements through a frictionless path.  The investigation will also seek to explore exactly what aspects of gender inequality are left out of collected data due to current methods of surveys and censuses.  
 
@@ -22,7 +22,7 @@ This research inquiry will support the question of the impact of different data 
 
 All of these sub-questions relate to the explorative inquiry, attempting to gather information about patterns and processes within the area of gender inequality.  Each question breaks down a more specific process within the investigation of exactly how to improve the data collection about gender inequality. This creates a hierarchical process where the reasoning behind the inequalities is be fully studied at a more specific scale before investigating methods that can be applied across the country and in what manner it would be best to apply them.  By narrowing the scope of the central research question, more specific explorations into the issue can take place.  The dynamics of these questions identify specific essential factors in this investigation, whose sum will form the beginning of an answer to the central question.
 
-Geospatial Datasets
+# Geospatial Datasets
 
 Both Bayesian geostatistical models and neural networks rely on similar data sources, including covariates collected through data from censuses or surveys.  However, household surveys are conducted more regularly.  Some of the largest surveys are the Demographic and Health Surveys (DHS), Living Standard Measurement Survys (LSMS), and Multiple Indicator Cluster Surveys (MICS) (Bosco et al., 2017).  One of the main surveys that is used to measure gender inequality in Nepal is the Nepal Demographic Health Survey (NDHS).  This survey takes data from randomly chosen representative sampling populations, within the boundaries of census enumeration areas (Gething et al., 2015).  Some of the important points of measurement include fertility rates, maternal and child mortality rates, access to health services, and levels of nutrition.  Authors and researchers can then use this data, when it is published, within the methods that they choose to analyze it with.
 
@@ -39,12 +39,14 @@ As demonstrated in Figures 1 and 2, which are tables of data from the 2016 NDHS,
 In addition to the information collected in the NDHS, geographical data is required, often gathered from secondary sources of GIS data and remote sensing satellite data sets.  This data has clear spatial dimensions and the temporal dimensions are important, but not as crucial because satellite imagery is now so readily available that it can be updated relatively quickly.  GIS datasets can be centered on elements that are physical, social, or environmental.  Using AcrGIS, this data is processed and produced into layers of information (Bosco et al., 2019).  Remote sensing data can be obtained from the United States Geological Survey and includes information about vegetation such as Gross Primary Productivity and Net Primary productivity and is verified with quality assurance layers (Bosco et al., 2019).  Both of these data sources are relatively valid and reliable due to advanced satellite imagery technology.  Having these additional data points allows for prediction of “the indicators at locations where survey data are not available” (p. 3) since there is often a clear correlative relationship between them and levels of gender inequality (Bosco et al., 2017).   
 
 ![](Covariates.png)
+
 Figure 3. Geospatial covariates at 0.0083 decimal degrees resolution showing population count, distance to protected areas, distance to schools, and nighttime lights. (Bosco et al., 2019).
  
 ![](Remote Sensing.png)
+
 Figure 4. Remote sensing covariates showing the mean Gross Primary Productivity and mean Normalized Difference Vegetation Index. (Bosco et al., 2017).
 
-Geospatial Data Science Methods
+# Geospatial Data Science Methods
 
 Bayesian Geostatistical Modeling
 
@@ -62,9 +64,11 @@ Within this process, p(Θ|E) is the “posterior belief in the parameters given 
 When applying this method, small samples collected through surveys like the NDHS can be utilized to then predict higher resolution observations based on the uncertainty calculated.  Figures 5 and 6 demonstrate how the Bayesian models allow for mapping of literacy rates across the whole country instead of just the select points (Figure 4) where survey data is collected.
 
 ![](NDHS_Data.png)
+
 Figure 5. Map of female literacy rates as collected through the NDHS (Bosco et al., 2019). 
  
 ![](Disaggregated_Map.png)
+
 Figure 6. Map of the proportions of female literacy using covariate data to predict areas where NDHS did not collect data.  (Bosco et al., 2019).
 
 Neural Networks, Specifically Convolutional Neural Networks
@@ -82,6 +86,7 @@ Following the feedforward process, a process of backpropagation is completed.  I
 Through this process the neurons of the network build even more accurate connections, ultimately increasing the accuracy of the output.  Since the network is trained through this process, these connections can then be used later to analyze data or images.  Neural networks ultimately use probability to improve the end output, taking known points (x in the equation) and predicting the relationship between those points that will result in an output that is as accurate as possible.  Once this relationship involving a known value is computed, researchers can then predict data at an unknown point.
 
 ![](CNN.png)
+
 Figure 7.  Illustration of the process of Convolutional Neural Networks.  (Wang et al., 2020, April 30)
 
 Comparison
@@ -90,7 +95,7 @@ While both of these methods complete the task of accounting for some level of un
 
 Various authors utilized these methods to specify their mapping of gender inequalities by predicting levels of inequality even where there is not data available.  Through this, a greater understanding of the broad scope of gender inequality in the country can be created instead of solely being able to have information in areas where NDHS data was collected.
 
-Findings	
+# Findings	
 
 According to Bosco et al. (2017), in a study measuring the predictive ability of these two methods for measuring literacy, stunting, and use of modern contraceptives, the predictive abilities of the methods varied in different countries.  Although the two methods had similar predictive abilities, given the input data provided, even when measuring the same factor, such as literacy, for men in comparison to women, the predictive capacities between men and women.  Researchers found that different covariates also had varying predictive capabilities.  For example, temperature as a covariate often had a more direct correlation with stunting due to its connection to aridity and malnutrition.  Urbanization and road access had a greater correlation with literacy while use of contraception methods correlated strongly with education levels (Bosco et al., 2017).  These associations make sense due to the fact that if, for example, a woman is more highly educated, she is likely to want to delay having children in order to advance her career or limit the number of children she has so she can continue working.  
 
@@ -100,7 +105,7 @@ Although they may not have direct predictive power, the researchers did validate
 
 Similar research by various authors, including Gething et al (2015) found data that supports the findings of Bosco et al.  Although the models had relatively high predictive abilities at some points, there were many times when the covariates were not relevant to measures of inequality.  For example, Gething et al., (2015) found that a measurement like access to HIV testing, which is a significant indicator of gender equality, was not predicted with accuracy when environmental covariates were utilized.  This demonstrates the importance of having up-to-data social data, which is almost always collected through surveys currently.
 
-Research Gap
+# Research Gap
 
 Although Bayesian geostatistical models and neural networks are significant advances in the ability to measure and map gender inequality, the main gap is the fact that they are only as accurate as the data that is input.  There is a significant lack of current data in the field of gender inequality, especially in developing countries.  In answering the central research question of this investigation, further investigation is necessary in order to create a frictionless pathway of data collection, especially in developing countries in order to address issues of gender inequality more accurately.  Bosco et al., in their 2017 and 2019 reports, emphasize that more accurate and robust data is necessary in order to improve model performance.  Gething et al., (2015) assert the need for additional covariates.  However, newer data collection methods are not without their drawbacks, so it is necessary to investigate what methods of collection, such as CDR data, can be modified.  These modifications would involve improving the technology to disaggregate by sex and also making sure that the public actually has access to this data to be able to use it.  
 
