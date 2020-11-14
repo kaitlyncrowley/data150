@@ -26,8 +26,12 @@ All of these sub-questions relate to the explorative inquiry, attempting to gath
 Geospatial Datasets
 
 Both Bayesian geostatistical models and neural networks rely on similar data sources, including covariates collected through data from censuses or surveys.  However, household surveys are conducted more regularly.  Some of the largest surveys are the Demographic and Health Surveys (DHS), Living Standard Measurement Survys (LSMS), and Multiple Indicator Cluster Surveys (MICS) (Bosco et al., 2017).  One of the main surveys that is used to measure gender inequality in Nepal is the Nepal Demographic Health Survey (NDHS).  This survey takes data from randomly chosen representative sampling populations, within the boundaries of census enumeration areas (Gething et al., 2015).  Some of the important points of measurement include fertility rates, maternal and child mortality rates, access to health services, and levels of nutrition.  Authors and researchers can then use this data, when it is published, within the methods that they choose to analyze it with.
+
+![](Table_1.png)
  
 Figure 1. NDHS data collected on women and their access to antenatal care.  (Aryal et al., 2019, p. 13).
+
+![](Table_2.png)
  
 Figure 2. Additional NDHS data collected on women who had access to antenatal care visits. (Aryal et al., 2019, p. 14).
 
