@@ -60,10 +60,10 @@ The equation above is the basic geostatistical model.  The first term x(T)(s) re
 
 The most important part of this process is the Bayesian inference, utilizing the result from the model.  
 
-p(Θ|E) = (p(Θ) × p(E|Θ))/ p(E) 
+p(ΘE) = (p(Θ) × p(EΘ))/ p(E) 
 
 
-Within this process, p(Θ|E) is the “posterior belief in the parameters given the evidence” (Steinbuch et al., 2018, p. 401).  This is calculated by multiplying the likelihood of a relationship (p(E|Θ)) by the prior parameter likelihood and dividing the product by the probability of the evidence collected, p(E), The evidence (E) is the Y(s) value from the in the basic geostatistical model (Steinbuch et al., 2018).  Through this Bayesian inference, the level of uncertainty of predictions of data can be calculated, providing an ability to create higher resolution maps or other data representations to take this uncertainty into account.
+Within this process, p(ΘE) is the “posterior belief in the parameters given the evidence” (Steinbuch et al., 2018, p. 401).  This is calculated by multiplying the likelihood of a relationship (p(EΘ)) by the prior parameter likelihood and dividing the product by the probability of the evidence collected, p(E), The evidence (E) is the Y(s) value from the in the basic geostatistical model (Steinbuch et al., 2018).  Through this Bayesian inference, the level of uncertainty of predictions of data can be calculated, providing an ability to create higher resolution maps or other data representations to take this uncertainty into account.
 
 When applying this method, small samples collected through surveys like the NDHS can be utilized to then predict higher resolution observations based on the uncertainty calculated.  Figures 5 and 6 demonstrate how the Bayesian models allow for mapping of literacy rates across the whole country instead of just the select points where survey data is collected.
 
